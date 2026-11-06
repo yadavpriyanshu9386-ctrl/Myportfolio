@@ -1,17 +1,16 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 // Pages
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Skills from "./Pages/Skills";
-import Projects from "./Pages/Projects";
-import Contact from "./Pages/Contact";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
-import bgImage from "./Components/Background.png";
-
+import bgImage from "./components/Background.png";
 export default function App() {
   return (
     <div className="relative min-h-screen w-full bg-[#030105] text-white flex flex-col justify-between selection:bg-[#dc143c] selection:text-white">
