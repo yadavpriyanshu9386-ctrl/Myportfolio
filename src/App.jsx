@@ -11,6 +11,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 import bgImage from "./components/Background.png";
+
 export default function App() {
   return (
     <div className="relative min-h-screen w-full bg-[#030105] text-white flex flex-col justify-between selection:bg-[#dc143c] selection:text-white">
